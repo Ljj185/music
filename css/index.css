@@ -3,7 +3,7 @@ body {
 }
 
 .nav {
-    height: 140px;
+    height: 70px;
     background-color: #242424;
     border-bottom: solid #000000;
 
@@ -11,11 +11,11 @@ body {
 
 .logo {
     float: left;
-    width: 324px;
-    height: 65px;
-    margin-left: 320px;
-    margin-right: 33px;
-    margin-top: 40px;
+    width: 162px;
+    height: 32.5px;
+    margin-left: 160px;
+    margin-right: 16.5px;
+    margin-top: 20px;
 }
 
 .menu {
@@ -23,11 +23,11 @@ body {
 }
 .menu a {
     float: left;
-    font-size: 30px;
+    font-size: 15px;
     color: #c2c2c2;
-    padding-left: 35px;
-    padding-right: 35px;
-    line-height: 140px;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    line-height: 70px;
     /* background-color: blue; */
 }
 .menu a:hover {
@@ -42,44 +42,44 @@ body {
 
 .search {
     float: left;
-    width: 325px;
-    height: 66px;
-    margin-left: 170px;
+    width: 162.5px;
+    height: 33px;
+    margin-left: 85px;
     background-color: #fff;
-    border-radius: 33px 33px;
-    margin-top: 36px;
+    border-radius: 16.5px 16.5px;
+    margin-top: 18px;
 }
 .search .text {
     display: inline-block;
-    width: 225px;
-    height: 62px;
-    margin-left: 33px;
+    width: 112.5px;
+    height: 16px;
+    margin-left: 15.5px;
     border-color: transparent;
     outline: none;
-    font-size: 22px;
+    font-size: 11px;
     color: #c6c6c6;
 }
 .search .btn {
-    margin-top: 18px;
+    margin-top: 8px;
     border: none;
 }
 
 .center {
     float: left;
-    height: 62px;
-    margin-left: 25px;
-    margin-top: 36px;
-    border-radius: 33px;
+    height: 31px;
+    margin-left: 12.5px;
+    margin-top: 18px;
+    border-radius: 16.5px;
     border-style: solid;
     border-color: #4f4f4f;
 }
 .center a {
     float: left;
-    font-size: 24px;
-    line-height: 62px;
+    font-size: 12px;
+    line-height: 31px;
     color: #c7c7c7;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
     
 
 }
@@ -89,10 +89,10 @@ body {
 
 .sign {
     float: left;
-    margin-left: 40px;
-    margin-top: 54px;
+    margin-left: 20px;
+    margin-top: 27px;
     color: #5b5b5b;
-    font-size: 24px;
+    font-size: 12px;
 
 }
 .sign:hover {
@@ -104,27 +104,27 @@ body {
     float: left;
     position: relative;
     width: 100%;
-    height: 70px;
+    height: 35px;
     background-color: #c20c0c;
 }
 .nav2 .menu2 {
     float: left;
-    width: 1175px;
-    height: 40px;
-    margin-left: 680px;
-    margin-top: 15px;
+    width: 587.5px;
+    height: 20px;
+    margin-left: 340px;
+    margin-top: 7.5px;
 }
 
 .nav2 .menu2 a {
     display: inline-block;
-    font-size: 24px;
+    font-size: 12px;
     color: #fff;
-    margin: 0 35px;
-    padding-left: 26px;
-    padding-right: 26px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 20px;
+    margin: 0 17.5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-radius: 10px;
 }
 .nav2 .menu2 a:hover {
     background-color: #9b0909;
@@ -134,45 +134,45 @@ body {
 }
 .nav2 .angle {
     position: absolute;
-    left: 755px;
-    top: -35px;
+    left: 388.5px;
+    top: -17.5px;
     width: 0px;
     height: 0px;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid #c20c0c;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #c20c0c;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
     z-index: 2;
 }
 
 .content {
     float: left;
     width: 100%;
-    height: 570px;
+    height: 285px;
     background-color: #4a97bb;
 }
 .content .poster {
     position: relative;
     float: left;
-    width: 1463px;
-    height: 570px;
+    width: 731.5px;
+    height: 285px;
     background-color: pink;
-    margin-left: 442px;
+    margin-left: 202px;
 }
 .content .poster img {
     display: inline-block;
-    width: 1463px;
-    height: 570px;
+    width: 731.5px;
+    height: 285px;
 }
 .content .download {
     float: left;
-    width: 507px;
-    height: 570px;
+    width: 253.5px;
+    height: 285px;
 }
 .content .download>div {
     float: left;
-    width: 255px;
-    height: 287px;
+    width: 127.5px;
+    height: 143.5px;
     background-image: url("../upload/download.png");
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -181,33 +181,33 @@ body {
 }
 .content .download a{
     float: left;
-    width: 215px;
-    height: 56.5px;
-    margin-left: 19px;
-    margin-top: 185px;
+    width: 107.5px;
+    height: 28.25px;
+    margin-left: 9.5px;
+    margin-top: 92.5px;
 }
 .content .download a:hover {
     background-color: rgb(0,0,0,0.1);
 }
 .content .left a,
 .content .right a{
-    width: 90px;
-    height: 130px;
-    font-size: 100px;
+    width: 45px;
+    height: 65px;
+    font-size: 50px;
     color: #e8e8e8;
 }
 .content .left a {
     position: absolute;
     top: 50%;
-    margin-top: -65px;
-    margin-left: -90px;
+    margin-top: -32.5px;
+    margin-left: -45px;
 }
 .content .right a {
     position: absolute;
     top: 50%;
-    margin-top: -65px;
+    margin-top: -32.5px;
     right: 0;
-    margin-right: -597px;
+    margin-right: -298.5px;
 }
 .content .left a:hover,
 .content .right a:hover {
@@ -217,17 +217,17 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%;
-    margin-left: -200px;
-    width: 400px;
-    height: 60px;
+    margin-left: -100px;
+    width: 200px;
+    height: 30px;
 }
 .content .poster .choice a {
     float: left;
-    width: 12px;
-    height: 12px;
-    margin: 25px 16px;
+    width: 6px;
+    height: 6px;
+    margin: 12.5px 8px;
     background-color: #c7c7c7;
-    border-radius: 6px;
+    border-radius: 3px;
 }
 .content .poster .choice a:hover {
     background-color: #c10d0c;
@@ -236,23 +236,23 @@ body {
 
 .main {
     float: left;
-    width: 1970px;
-    height: 2856px;
-    margin-left: 442px;
-    margin-top: 1px;
-    border: 1px solid #c2c2c2;
+    width: 985px;
+    height: 1428px;
+    margin-left: 202px;
+    margin-top: 0.5px;
+    border: 0.5px solid #c2c2c2;
 }
 .main .column {
     float: left;
-    width: 1463px;
+    width: 731.5px;
     height: 100%;
     background-color: #fff;
-    border: 1px solid #c2c2c2;
+    border: 0.5px solid #c2c2c2;
 }
 .main .column .hot {
     float: left;
     width: 100%;
-    height: 1120px;
+    height: 560px;
     background-color: #fff;
 }
 .main .column .hot .head,
@@ -260,50 +260,50 @@ body {
 .list .head {
     float: left;
     width: 96%;
-    height: 72px;
-    margin-top: 33px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-    border-bottom: 4px solid #c10d0c;
+    height: 36px;
+    margin-top: 16.5px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c10d0c;
 }
 .head .link {
     float: left;
-    width: 545px;
-    height: 26px;
-    margin-top: 23px;
+    width: 272.5px;
+    height: 13px;
+    margin-top: 11.5px;
 }
 .head .link a {
     float: left;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     vertical-align: middle;
-    font-size: 24px;
+    font-size: 12px;
     color: #666666;
-    line-height: 26px;
-    border-right: 1px solid #666666;
+    line-height: 13px;
+    border-right: 0.5px solid #666666;
 }
 .head .one {
     float: left;
-    margin-left: 77px;
-    margin-right: 10px;
-    font-size: 40px;
+    margin-left: 38.5px;
+    margin-right: 5px;
+    font-size: 20px;
     color: #333333;
-    line-height: 72px;
+    line-height: 36px;
 }
 .head .six {
-    border-right: 1px solid transparent;
+    border-right: 0.5px solid transparent;
 }
 .column .head .more {
-    height: 26px;
-    margin-top: 23px;
+    height: 13px;
+    margin-top: 11.5px;
     float: right;
 }
 .head .seven {
-    margin-right: 90px;
-    font-size: 24px;
+    margin-right: 45px;
+    font-size: 12px;
     color: #666666;
-    line-height: 26px;
-    border-right: 1px solid transparent;
+    line-height: 13px;
+    border-right: 0.5px solid transparent;
 }
 .hot .link a:hover,
 .hot .more a:hover,
@@ -314,34 +314,34 @@ body {
 .column .new {
     float: left;
     width: 100%;
-    height: 555px;
+    height: 277.5px;
 }
 .column .list {
     float: left;
     width: 100%;
-    height: 1285px;
+    height: 642.5px;
     background-color: #fff;
 }
 .hot .body>div {
     float: left;
-    width: 280px;
-    height: 420px;
-    margin: 40px;
+    width: 140px;
+    height: 210px;
+    margin: 20px;
     margin-top: 0;
 }
 .hot .body>div>div {
-    border: 1px solid #c2c2c2;
+    border: 0.5px solid #c2c2c2;
 }
 .hot .body img {
 
     float: left;
-    width: 280px;
-    height: 280px;
+    width: 140px;
+    height: 140px;
 }
 .hot .body span {
     display: inline-block;
-    margin-top: 15px;
-    font-size: 28px;
+    margin-top: 7.5px;
+    font-size: 14px;
     color: #000000;
 }
 .hot .body span a {
@@ -353,33 +353,33 @@ body {
 .new .body {
     position: relative;
     float: left;
-    width: 1378px;
-    height: 376px;
+    width: 689px;
+    height: 188px;
     background-color: #f5f5f5; 
-    margin-left: 45px;
-    border: 1px solid #c2c2c2;
+    margin-left: 22.5px;
+    border: 0.5px solid #c2c2c2;
 }
 .new .body>div {
     float: left;
-    width: 200px;
-    height: 280px;
+    width: 100px;
+    height: 140px;
     /* background-color: pink; */
-    margin-top: 60px;
-    margin-left: 60px;
-    margin-bottom: 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 17.5px;
 }
 .new .body img {
     float: left;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #c2c2c2;
+    width: 100px;
+    height: 100px;
+    border: 0.5px solid #c2c2c2;
 }
 .new .body h {
     display: inline-block;
-    height: 23px;
-    width: 200px;
-    font-size: 20px;
-    margin-top: 15px;
+    height: 15px;
+    width: 100px;
+    font-size: 10px;
+    margin-top: 7.5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -387,10 +387,10 @@ body {
 }
 .new .body span {
     display: inline-block;
-    height: 23px;
-    width: 200px;
-    font-size: 20px;
-    margin-top: 5px;
+    height: 11.5px;
+    width: 100px;
+    font-size: 10px;
+    margin-top: 2.5px;
     /* background-color: red; */
 }
 .new .body h a {
@@ -405,20 +405,20 @@ body {
 }
 .new .left a,
 .new .right a{
-    font-size: 40px;
+    font-size: 20px;
     color: #a8a8a8;
 }
 .new .body .left a {
     position: absolute;
     top: 40%;
     left: 0;
-    margin-left: 12px;
+    margin-left: 6px;
 }
 .new .body .right a {
     position: absolute;
     top: 40%;
     right: 0;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 .new .left a:hover,
 .new .right a:hover {
@@ -426,48 +426,48 @@ body {
 }
 .column .list .body {
     float: left;
-    width: 1371px;
-    height: 944px;
+    width: 685.7px;
+    height: 472px;
     background-color: rgb(244,244,244);
-    margin-left: 45px;
-    border: 1px solid rgb(221,221,221);
+    margin-left: 22.5px;
+    border: 0.5px solid rgb(221,221,221);
 }
 .list .body>div {
     float: left;
     height: 100%;
-    width: 455px;
-    border: 1px solid rgb(221,221,221);
+    width: 227.5px;
+    border: 0.5px solid rgb(221,221,221);
 }
 .list .body .title {
     float: left;
-    width: 455px;
-    height: 240px;
+    width: 227.5px;
+    height: 120px;
 }
 .list .title .photo a {
     float: left;
-    width: 160px;
-    height: 160px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    border: 1px solid #c2c2c2;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 0.5px solid #c2c2c2;
 }
 .list .title .photo a img {
     display: inline-block;
-    width: 160px;
-    height: 160px;
+    width: 80px;
+    height: 80px;
 
 }
 .list .title .text {
     float: left;
-    width: 110px;
-    height: 110px;
+    width: 55px;
+    height: 55px;
     background-color: #fff;
-    margin-top: 40px;
-    padding: 20px;
+    margin-top: 20px;
+    padding: 10px;
 }
 .list .title .text a {
-    font-size: 30px;
+    font-size: 15px;
     color: #000000;
 }
 .list .title .text a:hover {
@@ -476,32 +476,32 @@ body {
 
 .list .body .ol {
     float: left;
-    width: 455px;
-    height: 640px;
+    width: 227.5px;
+    height: 320px;
 }
 .list .ol ol {
     display: inline-block;
-    width: 455px;
-    height: 640px;
+    width: 227.5px;
+    height: 320px;
 }
 .list .ol ol li {
     float: left;
-    width: 455px;
-    height: 64px;
+    width: 227.5px;
+    height: 32px;
 }
 .list li span {
     float: left;
-    width: 28px;
-    margin-left: 25px;
-    font-size: 28px;
-    padding: 13px 20px;
+    width: 24px;
+    margin-left: 12.5px;
+    font-size: 14px;
+    padding: 6.5px 10px;
 }
 .list li a {
     float: left;
-    width: 300px;
-    height: 64px;
-    font-size: 25px;
-    line-height: 64px;
+    width: 150px;
+    height: 32px;
+    font-size: 12.5px;
+    line-height: 32px;
     color: #000;
 }
 .list li .top {
@@ -512,16 +512,16 @@ body {
 }
 .list .body .more {
     float: left;
-    width: 455px;
-    height: 63px;
+    width: 227.5px;
+    height: 31.5px;
     background-color: #e8e8e8;
 }
 .list .body .more a {
     float: right;
-    font-size: 25px;
+    font-size: 12.5px;
     color: #000;
-    margin-top: 17.5px;
-    margin-right: 65px;
+    margin-top: 8.75px;
+    margin-right: 32.5px;
 }
 .list li a:hover {
     text-decoration: underline;
@@ -530,38 +530,38 @@ body {
 
 .main .sidebar {
     float: left;
-    width: 500px;
+    width: 250px;
     height: 100%;
     background-color: #fff;
 }
 .sidebar .signin {
     float: left;
-    width: 505px;
-    height: 245px;
+    width: 252.5px;
+    height: 122.5px;
     background-color: rgb(234,234,234);
-    border-bottom: 1px solid #a8a8a8;
+    border-bottom: 0.5px solid #a8a8a8;
 }
 .sidebar .signin .text {
     float: left;
-    width: 411px;
-    height: 90px;
-    margin-top: 38px;
-    margin-left: 52px;
-    font-size: 24px;
+    width: 205.5px;
+    height: 45px;
+    margin-top: 19px;
+    margin-left: 26px;
+    font-size: 12px;
 }
 .sidebar .signin .link {
     float: left;
-    margin-top: 15px;
-    margin-left: 150px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    margin-top: 7.5px;
+    margin-left: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 7.5px;
+    padding-top: 7.5px;
     background-color: rgb(209,16,22);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .sidebar .signin .link a {
-    font-size: 24px;
+    font-size: 12px;
     color: #fff;
 }
 .sidebar .signin .link:hover {
@@ -570,29 +570,29 @@ body {
 
 .sidebar .singer {
     float: left;
-    width: 505px;
+    width: 252.5px;
     height: 1300px;
 }
 .sidebar .singer .head {
     float: left;
-    width: 425px;
-    height: 60px;
-    margin-left: 40px;
-    margin-top: 40px;
+    width: 212.5px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: #fff;
-    border-bottom: 3px solid #a8a8a8;
+    border-bottom: 1.5px solid #a8a8a8;
 }
 .sidebar .singer .head span {
     float: left;
-    font-size: 26px;
+    font-size: 13px;
     color: #000000;
-    line-height: 60px;
+    line-height: 30px;
 }
 .sidebar .singer .head a {
     float: right;
-    font-size: 26px;
+    font-size: 13px;
     color: #666666;
-    line-height: 60px;
+    line-height: 30px;
 }
 .sidebar .singer .head a:hover {
     text-decoration: underline;
@@ -600,43 +600,43 @@ body {
 
 .sidebar .singer .body {
     float: left;
-    width: 425px;
-    height: 765px;
-    margin-left: 40px;
-    margin-top: 25px;
+    width: 212.5px;
+    height: 382.5px;
+    margin-left: 20px;
+    margin-top: 12.5px;
     background-color: #fff;
 }
 .sidebar .singer .body a {
     float: left;
-    width: 425px;
-    height: 125px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 33px;
-    line-height: 125px;
+    width: 212.5px;
+    height: 62.5px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    font-size: 16.5px;
+    line-height: 62.5px;
     color: #000;
-    border: 1px solid #a8a8a8;
+    border: 0.5px solid #a8a8a8;
 
 }
 .sidebar .singer .body img {
     float: left;
-    width: 125px;
-    height: 125px;
-    margin-right: 50px;
+    width: 62.5px;
+    height: 62.5px;
+    margin-right: 25px;
 }
 .sidebar .singer .body a:hover {
     background-color: rgb(244,244,244);
 }
 .sidebar .singer .apply {
     display: inline-block;
-    margin-top: 50px;
-    margin-left: 38px;
-    padding: 14px 103px;
-    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 19px;
+    padding: 7px 51.5px;
+    font-size: 12.5px;
     color: #000;
     background-color: rgb(244,244,244);
-    border-radius: 10px;
-    border: 2px solid #c6c6c6;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
 }
 .sidebar .singer .apply:hover {
     background-color: rgb(252,252,252);
@@ -645,78 +645,78 @@ body {
 .bottom {
     float: left;
     width: 100%;
-    height: 500px;
+    height: 250px;
     background-color: #fff;
-    border: 1px solid #a8a8a8;
+    border: 0.5px solid #a8a8a8;
 }
 .bottom .service {
     float: left;
-    width: 1854px;
-    height: 300px;
-    margin-left: 500px;
+    width: 927px;
+    height: 150px;
+    margin-left: 215px;
 }
 .bottom .service>div {
     float: left;
-    width: 148px;
-    height: 148px;
-    margin: 58px;
+    width: 74px;
+    height: 74px;
+    margin: 29px;
     background-color: #fff;
 }
 .bottom a {
     float: left;
-    margin: 0 19px;
-    height: 110px;
-    width: 110px;
+    margin: 0 8.5px;
+    height: 55px;
+    width: 55px;
     background-image: url("../images/service.png");
 }
 .bottom span {
     display: inline-block;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
-    width: 148px;
-    margin: 15px auto;
+    width: 74px;
+    margin: 7.5px auto;
 }
 
 .bottom .service .one {
-    background-position: -330px 0;
+    background-position: -165px 0;
 }
 .bottom .service .two {
-    background-position: 0 -330px;
+    background-position: 0 -165px;
 }
 .bottom .service .three {
-    background-position: 0 -110px;
+    background-position: 0 -55px;
 }
 .bottom .service .four {
-    background-position: -110px -110px;
+    background-position: -55px -55px;
 }
 .bottom .service .five {
-    background-position: -220px -220px;
+    background-position: -110px -110px;
 }
 .bottom .service .six {
-    background-position: -330px -220px;
+    background-position: -165px -110px;
 }
 .bottom .service .seven {
-    background-position: -330px -110px;
+    background-position: -165px -55px;
 }
 
 .bottom .service .one:hover {
-    background-position: 0 -220px;
+    background-position: 0 -110px;
 }
 .bottom .service .two:hover {
-    background-position: -110px -330px;
+    background-position: -55px -165px;
 }
 .bottom .service .three:hover {
-    background-position: -110px 0;
+    background-position: -55px 0;
 }
 .bottom .service .four:hover {
-    background-position: -220px 0;
+    background-position: -110px 0;
 }
 .bottom .service .five:hover {
     background-position: 0 0;
 }
 .bottom .service .six:hover {
-    background-position: -110px 0;
+    background-position: -55px 0;
 }
 .bottom .service .seven:hover {
-    background-position: -220px -110px;
+    background-position: -110px -550px;
 }
