@@ -109,7 +109,6 @@ body {
 }
 .nav2 .menu2 {
     float: left;
-    width: 587.5px;
     height: 20px;
     margin-left: 340px;
     margin-top: 7.5px;
@@ -177,7 +176,6 @@ body {
     background-repeat: no-repeat;
     background-position: 0 0;
     zoom: 2;
-    /* background-color: red; */
 }
 .content .download a{
     float: left;
