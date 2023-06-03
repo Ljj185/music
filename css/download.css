@@ -103,7 +103,7 @@ body {
 
 .nav .angle {
     position: absolute;
-    left: 485px;
+    left: 795px;
     top: 100%;
     margin-top: -17px;
     width: 0px;
@@ -117,10 +117,10 @@ body {
 
 
 .download {
+    float: left;
     width: 100%;
     height: 667px;
-    /*background-color: rgb(23,23,23);*/
-    background-color: white;
+    background-color: rgb(23,23,23);
 }
 
 .download .left {
@@ -129,20 +129,59 @@ body {
     height: 490px;
     margin-top: 80px;
     margin-left: 174px;
-    background-color: #a8a8a8;
 }
 
 .download .left .title {
     display: inline-block;
     width: 100%;
     text-align: center;
+    font-size: 22px;
+    color: white;
     margin-bottom: 22px;
-    color: rgb(208,208,208);
 }
 
 .download .left .pic img {
     width: 100%;
 }
+
+.download .left .pic1 {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.download .left .pic1 .mac,
+.windows{
+    float: left;
+    height: 100%;
+}
+
+.download .left .pic1 .mac {
+    margin-left: 62px;
+}
+
+.download .left .pic1 .windows {
+    margin-left: 41px;
+}
+
+.download .left .btn {
+    float: left;
+    font-size: 22px;
+    color: rgb(209,0,0);
+    text-align: center;
+    line-height: 66px;
+    width: 302px;
+    height: 66px;
+    margin-top: 20px;
+    margin-left: 81.5px;
+    border-radius: 33px;
+    background-color: white;
+}
+
+.download .left .btn:hover {
+    background-color: rgb(186,186,186);
+}
+
 
 .download .right {
     float: left;
@@ -150,11 +189,62 @@ body {
     height: 490px;
     margin-top: 80px;
     margin-left: 265px;
-    background-color: #c7c7c7;
+}
+
+.download .right .title {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.download .right .pic img {
+    width: 250px;
+    margin-left: 26px;
+}
+
+.download .right .pic1 {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.download .right .pic1 .app,
+.android{
+    float: left;
+    height: 100%;
+}
+
+.download .right .pic1 .app {
+    margin-left: 10px;
+}
+
+.download .right .pic1 .android {
+    margin-left: 38px;
+}
+
+.download .right .btn {
+    float: left;
+    font-size: 22px;
+    color: rgb(209,0,0);
+    text-align: center;
+    line-height: 66px;
+    width: 302px;
+    height: 66px;
+    margin-top: 20px;
+    border-radius: 33px;
+    background-color: white;
+}
+
+.download .right .btn:hover {
+    background-color: rgb(186,186,186);
 }
 
 
 .content>div{
+    float: left;
     width: 99.9%;
     height: 438px;
     border: 0.5px solid #c2c2c2;
@@ -171,10 +261,93 @@ body {
     background-color: rgb(245,245,245);
 }
 
+.content .one .text,
+.content .three .text,
+.content .five .text{
+    float: left;
+    width: 420px;
+    height: 110px;
+    margin-left: 215px;
+    margin-top: 162px;
+}
 
+.content .one .text .title,
+.content .three .text .title,
+.content .five .text .title{
+    float: left;
+    width: 100%;
+    height: 40px;
+    font-size: 40px;
+    color: rgb(51,51,51);
+}
 
+.content .one .text .word,
+.content .three .text .word,
+.content .five .text .word{
+    float: left;
+    width: 100%;
+    height: 55px;
+    padding-top: 15px;
+}
 
+.content .one .photo,
+.content .three .photo,
+.content .five .photo{
+    float: left;
+    width: 410px;
+    height: 195px;
+    margin-top: 117px;
+    margin-left: 90px;
+}
+.content .five .photo {
+    margin-top: 40px;
+}
 
+.content .one .photo img,
+.content .three .photo img,
+.content .five .photo.img{
+    width: 100%;
+}
+
+.content .two .photo,
+.content .four .photo {
+    float: left;
+    width: 410px;
+    height: 195px;
+    margin-top: 117px;
+    margin-left: 205px;
+}
+
+.content .two .photo img,
+.content .four .photo img {
+    width: 100%;
+}
+
+.content .two .text,
+.content .four .text {
+    float: left;
+    width: 420px;
+    height: 110px;
+    margin-left: 70px;
+    margin-top: 162px;
+}
+
+.content .two .text .title,
+.content .four .text .title {
+    float: left;
+    width: 100%;
+    height: 40px;
+    font-size: 40px;
+    color: rgb(51,51,51);
+}
+
+.content .two .text .word,
+.content .four .text .word {
+    float: left;
+    width: 100%;
+    height: 55px;
+    padding-top: 15px;
+}
 
 
 
