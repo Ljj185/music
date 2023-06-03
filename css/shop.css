@@ -1,0 +1,173 @@
+.nav {
+    float: left;
+    width: 1100px;
+    height: 72px;
+    margin-left: 136px;
+}
+
+.nav .logo {
+    float: left;
+    width: 290px;
+    height: 100%;
+}
+
+.nav .logo img{
+    width: 295px;
+}
+
+.nav .search {
+    float: left;
+    width: 300px;
+    height: 33px;
+    margin-left: 333px;
+    background-color: #fff;
+    border-radius: 20px 20px;
+    border: 1px solid rgb(235,235,235);
+    margin-top: 18px;
+}
+.nav .search .text {
+    display: inline-block;
+    width: 245px;
+    height: 16px;
+    margin-left: 15.5px;
+    border-color: transparent;
+    outline: none;
+    font-size: 11px;
+    color: #c6c6c6;
+}
+.nav .search .btn {
+    margin-top: 8px;
+    border: none;
+}
+
+.nav .login {
+    position: relative;
+    float: left;
+    font-size: 15px;
+    color: black;
+    width: 60px;
+    height: 19px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.nav .login .angle {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -2px;
+    border-top: 6px solid rgb(51,51,51);
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+    float: left;
+    width: 100%;
+    height: 480px;
+    background-color: #a8a8a8;
+}
+
+.menu {
+    float: left;
+    width: 100%;
+    height: 81px;
+    background-color: antiquewhite;
+}
+
+.content {
+    float: left;
+    width: 1100px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 136px;
+    background-color: aquamarine;
+}
+
+.rec {
+    float: left;
+    width: 1100px;
+    height: 827.5px;
+    margin-top: 30px;
+    margin-left: 136px;
+    background-color: blanchedalmond;
+}
+
+.record {
+    float: left;
+    width: 1100px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 136px;
+    background-color: cornflowerblue;
+}
+
+.hot {
+    float: left;
+    width: 1100px;
+    height: 827.5px;
+    margin-top: 30px;
+    margin-left: 136px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
