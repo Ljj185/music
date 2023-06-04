@@ -62,39 +62,143 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .carousel {
     float: left;
     width: 100%;
     height: 480px;
+    background-color: rgb(93,131,97);
+}
+
+.carousel .poster {
+    position: relative;
+    float: left;
+    width: 1100px;
+    height: 480px;
+    margin-left: 136px;
+}
+.carousel .poster img {
+    display: inline-block;
+    width: 1100px;
+    height: 480px;
+}
+.carousel .left a,
+.carousel .right a{
+    width: 45px;
+    height: 65px;
+    font-size: 50px;
+    color: #e8e8e8;
+}
+.carousel .left a {
+    position: absolute;
+    top: 50%;
+    margin-top: -32.5px;
+    margin-left: -45px;
+}
+.carousel .right a {
+    position: absolute;
+    top: 50%;
+    margin-top: -32.5px;
+    right: 0;
+    margin-right: -45px;
+}
+.carousel .left a:hover,
+.carousel .right a:hover {
     background-color: #a8a8a8;
 }
+.carousel .poster .choice {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -67.5px;
+    margin-bottom: 30px;
+    width: 135px;
+    height: 30px;
+}
+.carousel .poster .choice a {
+    float: left;
+    width: 6px;
+    height: 6px;
+    margin: 12.5px 8px;
+    background-color: #c7c7c7;
+    border-radius: 3px;
+}
+.carousel .poster .choice a:hover {
+    background-color: #c10d0c;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+}
+
 
 .menu {
     float: left;
     width: 100%;
     height: 81px;
-    background-color: antiquewhite;
+    border-bottom: 1px solid rgb(235,235,235);
 }
+
+.menu ul {
+    float: left;
+    width: 1100px;
+    height: 81px;
+    margin-left: 136px;
+}
+
+.menu ul li {
+    float: left;
+    width: 275px;
+    height: 81px;
+}
+
+.menu ul li a {
+    display: inline-block;
+    width: 275px;
+    height: 81px;
+}
+
+.menu ul li  a img {
+    margin-left: 90px;
+    margin-right: 13px;
+}
+
+.menu ul li  a span {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    line-height: 81px;
+}
+
+.menu ul li em {
+    float: left;
+    width: 1px;
+    height: 50px;
+    margin-top: -65px;
+    margin-left: 275px;
+    background-color: rgb(235,235,235);
+}
+
+.menu ul li .last {
+    background-color: white;
+}
+
+
 
 .content {
     float: left;
-    width: 1100px;
+    width: 1125px;
     height: 300px;
     margin-top: 40px;
     margin-left: 136px;
-    background-color: aquamarine;
 }
+
+.content img {
+    float: left;
+    width: 537.5px;
+    height: 300px;
+    margin-right: 25px;
+}
+
+
 
 .rec {
     float: left;
@@ -102,8 +206,92 @@
     height: 827.5px;
     margin-top: 30px;
     margin-left: 136px;
-    background-color: blanchedalmond;
 }
+
+.rec .title,
+.hot .title{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.rec .body {
+    float: left;
+    width: 1110px;
+    height: 725px;
+}
+
+.rec .body li,
+.hot .body li{
+    float: left;
+    width: 267.5px;
+    height: 345px;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.rec .body li .pic,
+.hot .body li .pic{
+    float: left;
+    width: 267.5px;
+    height: 263px;
+    background-color: rgb(249,249,249);
+}
+
+.rec .body li .pic img,
+.hot .body li .pic img {
+    width: 100%;
+}
+
+.rec .body li .name,
+.hot .body li .name{
+    float: left;
+    width: 267.5px;
+    height: 45px;
+    margin-top: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    text-align: center;
+}
+
+.rec .body li .name span,
+.hot .body li .name span{
+    display: inline-block;
+    width: 65px;
+    height: 15px;
+    border: 1px solid rgb(215,77,69);
+    font-size: 10px;
+    color: rgb(215,77,69);
+    text-align: center;
+}
+
+.rec .body li .name a,
+.hot .body li .name a{
+    font-size: 14px;
+    color: black;
+}
+
+.rec .body li .name a:hover,
+.hot .body li .name a:hover{
+    text-decoration:underline;
+}
+
+.rec .body li .price,
+.hot .body li .price{
+    display: inline-block;
+    font-size: 15.5px;
+    color: rgb(211,58,49);
+    margin-left: 110px;
+}
+
 
 .record {
     float: left;
@@ -111,17 +299,76 @@
     height: 180px;
     margin-top: 30px;
     margin-left: 136px;
-    background-color: cornflowerblue;
+    background-color: rgb(249,249,249);
 }
+
+.record .text {
+    float: left;
+    width: 825px;
+    height: 180px;
+}
+
+.record .text .first {
+    display: inline-block;
+    font-size: 33px;
+    font-weight: bold;
+    color: black;
+    width: 180px;
+    height: 45px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.record .text .first img {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+.record .text .second {
+    color: #a8a8a8;
+    width: 300px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 8px;
+}
+
+.record .text .third {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    width: 200px;
+    height: 25px;
+    margin-left: 60px;
+    margin-top: 12px;
+}
+
+.record .pic {
+    float: left;
+    width: 225px;
+    height: 130px;
+    margin-top: 25px;
+}
+
+.record .pic img {
+    width: 100%;
+}
+
+
 
 .hot {
     float: left;
     width: 1100px;
-    height: 827.5px;
+    height: 927.5px;
     margin-top: 30px;
     margin-left: 136px;
     margin-bottom: 30px;
-    background-color: aliceblue;
+}
+
+.hot .body {
+    float: left;
+    width: 1110px;
+    height: 800px;
 }
 
 
